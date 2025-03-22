@@ -53,7 +53,19 @@
   background-color: #444;
 }
 
-#main {
+#slideContents {
   transition: margin-left .5s;
   padding: 20px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	color: #fff;
+	background-color: var(--primary-color);
+	padding: 1.5rem;
+	width: 100%;
 }
