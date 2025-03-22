@@ -78,7 +78,7 @@ body {
     cursor: pointer;
     background-color: var(--background-color);
     color: var(--text-color);
-    padding: 10px 20px;
+    padding: 10px 10px;
     border: none;
 }
 
