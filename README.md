@@ -1,2 +1,1 @@
-InfoTeam HTML, CSS 교육
-https://benzenism.github.io/GIST-InfoTeam-Web-Edu/
+InfoTeam HTML, CSS Education Result
