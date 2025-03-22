@@ -91,6 +91,10 @@ body {
     padding: 20px;
 }
 
+.sliderControler {
+    display: flex;
+}
+
 .container {
     height: 50vh;
     width: 80%;
