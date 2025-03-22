@@ -96,7 +96,7 @@ body {
 }
 
 .container {
-    height: 60vh;
+    height: 50vh;
     width: 100%;
     max-width: 3000px;
     display: flex;
