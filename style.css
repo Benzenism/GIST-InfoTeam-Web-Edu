@@ -87,14 +87,13 @@ body {
 .infoContainer {
     display: flex;
     margin: 0 auto;
-    padding: 1rem;
     background: var(--background-color);
 }
 
 .container {
     height: 50vh;
-    width: 100%;
-    max-width: 4000px;
+    width: 80%;
+    max-width: 3000px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -115,6 +114,6 @@ footer {
 	text-align: center;
 	color: var(--background-color);
 	background-color: var(--alter-default-color);
-	padding: 1rem;
+	padding: 0.5rem;
 	width: 100%;
 }
