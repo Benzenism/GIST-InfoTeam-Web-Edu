@@ -84,11 +84,6 @@ body {
     padding: 20px;
 }
 
-.infoContainer {
-    display: flex;
-    background: var(--background-color);
-}
-
 .container {
     height: 50vh;
     width: 80%;
