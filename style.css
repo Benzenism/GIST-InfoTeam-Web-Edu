@@ -85,7 +85,6 @@ body {
 }
 
 .infoContainer {
-    height: 10vh;
     width: 100%;
     max-width: 4000px;
     display: flex;
