@@ -84,6 +84,15 @@ body {
   padding: 20px;
 }
 
+.infoContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin: 0 auto;
+  padding: 1rem;
+  background: var(--background-color);
+}
+
 .container {
   height: 60vh;
   width: 100%;
