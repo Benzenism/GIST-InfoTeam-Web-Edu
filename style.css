@@ -78,7 +78,7 @@ body {
     cursor: pointer;
     background-color: var(--background-color);
     color: var(--text-color);
-    padding: 10px 15px;
+    padding: 10px 20px;
     border: none;
 }
 
@@ -92,7 +92,7 @@ body {
 }
 
 .sliderControler {
-    float: left;
+    display: flex;
 }
 
 .container {
