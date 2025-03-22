@@ -86,7 +86,6 @@ body {
 
 .infoContainer {
     display: flex;
-    margin: 0 auto;
     background: var(--background-color);
 }
 
