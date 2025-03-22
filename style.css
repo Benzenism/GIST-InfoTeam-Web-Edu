@@ -65,6 +65,22 @@
   padding: 20px;
 }
 
+.container {
+  height: 60vh;
+  width: 100%;
+  max-width: 4000px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem;
+  background: var(--background-color);
+  margin-top: 3rem;
+}
+
 footer {
 	position: fixed;
 	bottom: 0;
