@@ -65,7 +65,6 @@ body {
 }
 
 .sidebar .closebtn {
-    position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
