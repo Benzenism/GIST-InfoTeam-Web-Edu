@@ -10,7 +10,7 @@
     --text-color: #ffffff;
     --background-color: #000000;
     --sidebar-background-color: #1e1e1e;
-    --alter-default-color: #818181;
+    --alter-default-color: #b7b7b7;
     --button-hover-color: #444444;
 }
 
@@ -96,8 +96,8 @@ body {
 }
 
 .container {
-    height: 70vh;
-    width: 80%;
+    height: 65vh;
+    width: 100%;
     max-width: 3000px;
     display: flex;
     flex-direction: column;
