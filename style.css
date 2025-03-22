@@ -92,7 +92,7 @@ body {
 }
 
 .sliderControler {
-    display: flex;
+    float: left;
 }
 
 .container {
