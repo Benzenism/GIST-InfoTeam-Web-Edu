@@ -33,12 +33,6 @@ html {
     overscroll-behavior: none;
 }
 
-body {
-    line-height: 1rem;
-    color: var(--text-color);
-    background-color: var(--background-color);
-}
-
 .sidebar {
     height: 100%;
     width: 0;
