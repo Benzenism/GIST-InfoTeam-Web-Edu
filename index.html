@@ -46,34 +46,19 @@
   </header>
 
   <main>
-
-  <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
-      <i class="fa fa-home w3-xxlarge"></i>
-      <p>HOME</p>
-    </a>
-    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <i class="fa fa-user w3-xxlarge"></i>
-      <p>ABOUT</p>
-    </a>
-    <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <i class="fa fa-eye w3-xxlarge"></i>
-      <p>PHOTOS</p>
-    </a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <i class="fa fa-envelope w3-xxlarge"></i>
-      <p>CONTACT</p>
-    </a>
-  </nav>
-  
-  <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-      <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-      <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-      <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
-      <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
     </div>
-  </div>
+  
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>
+        <h2>Collapsed Sidebar</h2>
+        <p>Content...</p>
+    </div>
 
     <div class="container"> 
       <img src="./images/profile-image.jpg" alt="app main logo" height="150px"></img>
@@ -92,15 +77,6 @@
     <p>Bug Report: kimdohkyun@gm.gist.ac.kr</p>
   </footer>
   
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker
-        .register('./service-worker.js')
-        .then(function () {
-          console.log('Service Worker Registed');
-        })
-    }
-  </script>
   <script src="main.js"></script>
 </body>
 
