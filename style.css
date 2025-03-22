@@ -78,12 +78,12 @@ body {
     cursor: pointer;
     background-color: var(--background-color);
     color: var(--text-color);
-    padding: 0px 15px;
+    padding: 10px 15px;
     border: none;
 }
 
 .openbtn:hover {
-    background-color: var(--button-hover-color);
+    color: var(--button-hover-color);
 }
 
 #slideContents {
@@ -108,7 +108,7 @@ body {
     margin: 0 auto;
     padding: 1rem;
     background: var(--background-color);
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 footer {
