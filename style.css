@@ -13,6 +13,25 @@
   --button-hover-color: #444444;
 }
 
+*:not(input):not(select):not(code):not(textarea):not([contenteditable]) {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+html {
+  overscroll-behavior: none;
+}
+
+body {
+  line-height: 1rem;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
 .sidebar {
   height: 100%;
   width: 0;
