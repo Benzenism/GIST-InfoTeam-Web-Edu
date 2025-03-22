@@ -6,6 +6,13 @@
     font-style: normal;
 }
 
+:root {
+  --text-color: #ffffff;
+  --background-color: #000000;
+  --alter-default-color: #818181;
+  --button-hover-color: #444444;
+}
+
 .sidebar {
   height: 100%;
   width: 0;
@@ -13,7 +20,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: var(--background-color);
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
@@ -23,13 +30,13 @@
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: var(--alter-default-color);
   display: block;
   transition: 0.3s;
 }
 
 .sidebar a:hover {
-  color: #f1f1f1;
+  color: var(--text-color);
 }
 
 .sidebar .closebtn {
@@ -43,14 +50,14 @@
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: #111;
-  color: white;
+  background-color: var(--background-color);
+  color: var(--text-color);
   padding: 10px 15px;
   border: none;
 }
 
 .openbtn:hover {
-  background-color: #444;
+  background-color: var(--button-hover-color);
 }
 
 #slideContents {
@@ -64,8 +71,8 @@ footer {
 	left: 50%;
 	transform: translateX(-50%);
 	text-align: center;
-	color: #fff;
-	background-color: var(--primary-color);
+	color: var(--background-color);
+	background-color: var(--alter-default-color);
 	padding: 1.5rem;
 	width: 100%;
 }
